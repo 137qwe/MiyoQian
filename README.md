@@ -75,7 +75,7 @@
 
 云游戏 Token 获取方法（参考 MihoyoBBSTools）：
 
-1. 在浏览器打开对应云游戏网页并登录账号，[云原神](https://ys.mihoyo.com/cloud/#/)，[云绝区零](https://zzz.mihoyo.com/cloud-feat/#/)。
+1. 云绝区零无网页版需抓包获取，参考 https://bili33.top/posts/MHYY-AutoCheckin-Manual-Gen2/#%E9%85%8D%E7%BD%AE%E8%8E%B7%E5%8F%96；云原神在浏览器打开[对应云游戏网页](https://ys.mihoyo.com/cloud/#/)并登录账号。
 2. 打开开发者工具，切到 `Network` / `网络`。
 3. 刷新页面或进入钱包/时长页面，过滤 `wallet/wallet/get`。
 4. 点开返回成功的请求，在请求头里复制 `X-Rpc-Combo_token` 的值。
@@ -755,7 +755,7 @@ accounts:
 
 云游戏 Token 获取方法：
 
-1. 在浏览器打开对应云游戏网页并登录账号，例如云原神。
+1. 云绝区零无网页版需抓包获取，参考 https://bili33.top/posts/MHYY-AutoCheckin-Manual-Gen2/#%E9%85%8D%E7%BD%AE%E8%8E%B7%E5%8F%96；云原神在浏览器打开[对应云游戏网页](https://ys.mihoyo.com/cloud/#/)并登录账号。
 2. 打开开发者工具，切到 `Network` / `网络`。
 3. 刷新页面或进入钱包/时长页面，过滤 `wallet/wallet/get`。
 4. 点开返回成功的请求，在请求头里复制 `X-Rpc-Combo_token` 的值。
