@@ -3,7 +3,7 @@ name: Build Docker Image (ARM64)
 on:
   push:
     branches:
-      - main
+      - master          # ← 从 main 改为 master
     paths:
       - 'docker/**'
       - 'Dockerfile'
